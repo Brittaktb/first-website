@@ -1,0 +1,219 @@
+/* Webseiten-Settings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: grey;
+  height: 100vh;
+}
+
+/* Formatierung Überschriften & Text */
+h1,
+h2,
+ul {
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+}
+
+h3 {
+  max-width: 35% ;
+  margin-top: 40px;
+  margin-left: 320px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+/* Font Space Grotesk > */
+.grotesk {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 30px;
+  font-weight:normal;
+}
+
+/* Kopf */
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#flagge {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* Navigationsleiste */
+
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+.nav a {
+  color: white;
+  background-color: darkslategray;
+  padding: 5px;
+  
+}
+
+/*Farbveränderung > Verlinkung*/
+.nav a:hover {
+  color: white; 
+  background-color:rgb(62, 144, 170); 
+}
+
+
+/* Haupteil-Flexboxen*/
+main {
+  display: flex;
+  margin-top: 50px;
+}
+
+a {
+  /* border: 2px solid rgb(50, 53, 50); */
+  padding: 10px 10px 0px 10px;
+  justify-items: center;
+}
+
+#list-link {
+ font-weight: bold;
+ padding:0px;
+ color: black;
+}
+
+.bild-s {
+  display: flex;
+  border-radius: 20px;
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px ;
+}
+
+/*Bild-Vergrößerung > Verlinkung*/
+.bild-s:hover {
+  transform: scale(1.1); 
+}
+
+/* Container-links / Flexbox */
+.c-links {
+  display: flex;
+  min-height: min-content;
+  /* border: 6px solid blue; */
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 50px;
+}
+
+.box {
+  text-align: center;
+}
+
+/* Container-mitte / Flexbox */
+.c-mitte {
+  display: flex;
+  min-height: min-content;
+  /* border: 6px solid red; */
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+/* Bild mitte / Flexbox */
+.c-mitte img {
+  width: 65%;
+}
+
+/* Container-rechts / Flexbox */
+.c-rechts {
+  display: flex;
+  min-height: min-content;
+  /* border: 6px solid blue;  */
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  margin-right: 50px;
+}
+
+/* Rubrik Empfehlungen */
+.hintergrund {
+  background-image: url("./bilder/bamboo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  }
+
+
+ul {
+  max-width: 35% ;
+  padding:0px;
+  text-wrap-style:auto;
+  margin-left: 340Px;
+}
+
+
+/* Rubrik Reiserouten */
+.routen {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.img-route {
+  display: flex;
+  border-radius: 50px;
+  height: 300px;
+  justify-content: space-between;
+  border: 5px solid white;
+}
+
+/* Footer */
+footer {
+  height: min-content;
+  background-color: black;
+  color: white;
+}
+.fa-address-card {
+  font-size: 50px;
+  margin: 50px 0px 0px 40px;
+}
+p {
+  margin: 10px 0px 0px 40px;
+  font-size: 20px;
+}
+
+.fa-arrow-up-from-bracket {
+  font-size: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  cursor: pointer;
+  color: white;
+}
